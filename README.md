@@ -69,7 +69,7 @@ Stone-Paper-Scissors/
 
 **Yash Raghuwanshi**
 
-🌐 GitHub: https://github.com/yraghuwanshi124-art
+🌐 https://yraghuwanshi124-art.github.io/stone-paper-scissors/
 
 ---
 
