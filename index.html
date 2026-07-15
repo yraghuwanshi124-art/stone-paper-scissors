@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Papper Scissorss</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Rock Papper Scissorss</h2>
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="./images/rock.png">
+            <p id="msg2">Rock</p>
+        </div>
+
+        <div class="choice" id="papper">
+            <img src="./images/paper.png">
+            <p id="msg2">paper</p>
+        
+        </div>
+
+        <div class="choice" id="scissors">
+            <img src="./images/scissors.png">
+            <p id="msg2">Scissors</p>
+        </div>
+    </div>
+
+
+<div class="picked-card">
+
+    <div class="picked">
+        <span>👤</span>
+        <p>You Picked : <span id="u-choice">Paper</span></p>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="picked">
+        <span>💻</span>
+        <p>Computer Picked : <span id="c-choice">Rock</span></p>
+    </div>
+
+</div>
+
+
+    <div class="result-card">
+        <div class="trophy">🏆</div>
+
+        <div class="result-text">
+            <h3 id="result-tittle"></h3>
+            <P id="result-desc"></P>
+        </div>
+    </div>
+
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>👤You</p>
+        </div>
+
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p><span>💻</span>Computer</p>
+        </div>
+
+        <div class="score">
+            <p id="draw">0</p>
+            <p>🤝Draw</p>
+        </div>
+    </div>
+
+    <div class="msg-container">
+        <p id="msg">Pick Your Move</p>
+        <p id="msg1">New Game</p>
+    </div>
+
+
+
+
+
+
+</body>
+    <script src="script.js"></script>
+</html>
